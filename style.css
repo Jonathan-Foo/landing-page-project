@@ -66,7 +66,7 @@ a {
 
 button {
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #F9FAF8;
     border: 0;
     font-weight: bolder;
@@ -167,3 +167,51 @@ figcaption {
 
 /* CALL TO ACTION SECTION */
 
+.call-to-action {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+
+}
+
+.bluebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 80px 150px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    gap: 200px;
+}
+
+.call-button {
+    border: 3px solid #F9FAF8;
+    font-size: 25px;
+    width: 190px;
+}
+
+
+.call-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    
+}
+
+.call-header {
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.call-subtext {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
